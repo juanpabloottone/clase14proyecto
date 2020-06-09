@@ -1,0 +1,22 @@
+.encabezado{
+    width: 100%;
+    height: 66vh;
+    background-image: url("../img/logo1.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+body{
+    margin: 0;
+}
+.encabezado h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 2.5em;
+    text-align: center;
+    margin: 0;
+    line-height: 125%;
+    letter-spacing: 12px;
+}
