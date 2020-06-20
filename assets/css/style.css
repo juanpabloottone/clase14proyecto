@@ -31,3 +31,40 @@ body{
     background-color: #EED870;
     z-index: 0;
 }
+.info{
+    padding-top: 130px;
+}
+.info h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 10px;
+}
+.info h2 span{
+    font-weight: 700;
+}
+.info_1{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+}
+.info h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+    text-align: center;
+}
+.info p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    text-align: center;
+}
+.info_1 .separador{
+    background-color: #EED870;
+    border: 1px solid #333;
+    width: 15px;
+}
