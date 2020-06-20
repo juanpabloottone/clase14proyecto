@@ -6,6 +6,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 
 }
 body{
@@ -19,4 +20,14 @@ body{
     margin: 0;
     line-height: 125%;
     letter-spacing: 12px;
+}
+.encabezado .logo{
+    display: flex;
+    position: relative;
+    top: 140px;
+    width: 100%;
+    justify-content: center;
+    max-width: 850px;
+    background-color: #EED870;
+    z-index: 0;
 }
