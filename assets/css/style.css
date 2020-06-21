@@ -46,7 +46,7 @@ body{
 }
 .info_1{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: stretch;
     max-width: 1200px;
     margin-left: auto;
@@ -56,15 +56,84 @@ body{
 .info h3{
     font-family: 'Montserrat', sans-serif;
     font-size: 2em;
-    text-align: center;
+    text-align:center;
 }
 .info p{
     font-family: 'Open Sans', sans-serif;
-    font-size: 1em;
+    font-size: 1.4em;
     text-align: center;
 }
 .info_1 .separador{
     background-color: #EED870;
     border: 1px solid #333;
-    width: 15px;
+    width: 30px;
+    box-shadow: 0 0px 2px #333333;
+    margin: 0 160px;
+}
+.info2 h2{
+    display: flex;
+    background-color:#EED870 ;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+    font-weight: 300;
+    letter-spacing: 15px;
+    align-content: center;
+    padding: 30px;
+}
+.info2 h2 span{
+    font-weight: 400;
+}
+.info2 .propuesta{
+    display: flex;
+    justify-content: center;
+}
+.info2 h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+    text-align:center;
+    font-weight: 900;
+}
+.info2 .clases{
+    display: flex;
+    justify-content: space-around;
+}
+/*---------------------------*/
+.info2 .clases .cont1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.info2 .clases .cont2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.info2 .clases .cont{
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.4em;
+    letter-spacing: 20px;
+}
+.info2 .clases span{
+    font-family: 'Montserrat', sans-serif;
+}
+/*-------------------------------*/
+.info2 .seccion_3{
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+    padding-top: 80px;
+    align-content: center;
+}
+.info2 .separador2{
+    background-color: #EED870;
+/*    border: 1px solid #333;*/
+    width: 20px;
+/*    box-shadow: 0 0px 2px #333333;*/
+    margin: 0 160px;
 }
