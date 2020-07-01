@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+/*-------------------encabezado------*/
 .encabezado{
     width: 100%;
     height: 66vh;
@@ -15,7 +19,7 @@ body{
 .encabezado h1{
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
-    font-size: 2.5em;
+    font-size: 2.5rem;
     text-align: center;
     margin: 0;
     line-height: 125%;
@@ -31,12 +35,15 @@ body{
     background-color: #EED870;
     z-index: 0;
 }
+/*-----------fin encabezado---------*/
+
+/*--------------inicio main/section---------------*/
 .info{
     padding-top: 130px;
 }
 .info h2{
     font-family: 'Montserrat', sans-serif;
-    font-size: 2em;
+    font-size: 2rem;
     text-align: center;
     font-weight: 300;
     letter-spacing: 10px;
@@ -55,12 +62,12 @@ body{
 }
 .info h3{
     font-family: 'Montserrat', sans-serif;
-    font-size: 2em;
+    font-size: 2rem;
     text-align:center;
 }
 .info p{
     font-family: 'Open Sans', sans-serif;
-    font-size: 1.4em;
+    font-size: 1.4rem;
     text-align: center;
 }
 .info_1 .separador{
@@ -70,12 +77,12 @@ body{
     box-shadow: 0 0px 2px #333333;
     margin: 0 160px;
 }
-.info2 h2{
+.info2 .propuesta h2{
     display: flex;
     background-color:#EED870 ;
     justify-content: center;
     font-family: 'Montserrat', sans-serif;
-    font-size: 2em;
+    font-size: 2rem;
     font-weight: 300;
     letter-spacing: 15px;
     align-content: center;
@@ -90,7 +97,7 @@ body{
 }
 .info2 h3{
     font-family: 'Montserrat', sans-serif;
-    font-size: 2em;
+    font-size: 2rem;
     text-align:center;
     font-weight: 900;
 }
@@ -99,24 +106,26 @@ body{
     justify-content: space-around;
 }
 /*---------------------------*/
-.info2 .clases .cont1{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+.info2 .clases .cont1,
 .info2 .clases .cont2{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-end;
+    font-size: 4rem;
+    font-family: 'Montserrat', sans-serif;
 }
+
 .info2 .clases .cont{
     display: flex;
     font-family: 'Open Sans', sans-serif;
-    font-size: 1.4em;
+    font-size: 1.4rem;
     letter-spacing: 20px;
+    align-items: center;
 }
-.info2 .clases span{
+.info2 .clases .cont1 span,
+.info2 .clases .cont2 span{
     font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
 }
 /*-------------------------------*/
 .info2 .seccion_3{
@@ -132,8 +141,89 @@ body{
 }
 .info2 .separador2{
     background-color: #EED870;
-/*    border: 1px solid #333;*/
-    width: 20px;
-/*    box-shadow: 0 0px 2px #333333;*/
+    width: 30px;
     margin: 0 160px;
+}
+/*--------fin de section 3---------*/
+
+/*-----------frase/texto/formulario------*/
+.info3 .cuando h2{
+    font-family: 'Montserrat', sans-serif;
+    color:  #EED870;
+    font-size: 9rem;
+    font-weight: 300;
+    text-align: center;
+    margin: 40px;
+}
+
+.info4{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #EED870;
+    margin: 0px;
+    max-height: 320px;
+    width: 100%;
+    padding: 40px;
+    align-items: stretch;
+}
+.info4 .datos1 p{
+    text-align: start;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.8rem;
+    max-width: 240px;
+    line-height: 120%;
+}
+.info4 .formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-basis: 25%;
+    flex-wrap: wrap-reverse;
+}
+.info4 .formulario input[type=submit]{
+    display: flex;
+    flex-basis: 10%;
+    align-items: center;
+    justify-content: center;
+    width: 180px;
+    background-color: #CAAA12;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8rem;
+    color: white;
+    border-radius: 7px 7px 7px 7px;
+}
+
+.info4 .formulario input[type=text]{
+    flex-basis: 22%;
+    text-align: start;
+    padding: 15px;
+    border-radius: 7px 7px 7px 7px;
+}
+
+/*--------fin de 3ra section titulo/texto/formulario-----*/
+
+.pie{
+    color: white;
+    background-color:  #949493;
+}
+
+
+
+@media screen and (max-width: 1199.98px){
+    html{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 991.98px){
+    .info_1, .info2 .seccion_3{
+        max-width: 80%;
+    }
+    }
+}
+
+@media screen and (max-width: 575.98){
+    html{
+        font-size: 20px;
+    }
 }
